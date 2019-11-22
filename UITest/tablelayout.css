@@ -1,0 +1,53 @@
+.modal.hide {
+	display: none;
+}
+
+.modal.popup {
+	display: block;
+}
+
+.modal .cover{
+    position: absolute;
+    z-index: 9990;
+    width: 100%;
+    height: 100%;
+    top: 0px;
+    left: 0px;
+    }
+
+.modal .win {		
+    position: absolute;
+		background-image: url('divback.jpg');
+    background-repeat: repeat; 
+    z-index: 9995;
+    margin: 0 auto;
+    min-width: 210px;
+    padding: 2px;    
+    left: 20px;
+    top: 20px;
+    border: 1px solid #d3d3d3;
+    }
+    
+.modal .header {
+  cursor: move;
+  background-color: #2196F3;
+  color: #fff; 
+  text-align: center; 
+  padding: 5px;
+}
+
+.modal .contentpane {
+	padding: 5px;
+  background-color: #ffffff;
+  border: 1px solid #d3d3d3;
+  min-height: 210px;
+}
+    
+#winclose {	
+  cursor: pointer;
+}
+
+#winclose:hover {	
+  color: #f00;
+}
+

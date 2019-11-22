@@ -1,0 +1,29 @@
+.tree li {
+    list-style: none;
+    background:#eee;
+}
+
+.tree ul.collapsed {
+  display:none;
+}
+
+.tree i {
+  cursor: pointer;
+}
+
+.tree li span {
+	margin-left:2px;
+	margin-right:2px;
+	cursor: pointer;
+}
+
+.tree li span.selected {
+	text-decoration: underline;
+	color:blue;
+}
+
+.tree li span:hover {
+	color:#aaa;
+}
+
+
